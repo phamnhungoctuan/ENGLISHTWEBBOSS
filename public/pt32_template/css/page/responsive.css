@@ -1,0 +1,171 @@
+
+@media screen and (max-width: 1170px){
+  .sidenav {
+    height: 100% !important;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #fff !important;
+      display: block;
+      transition: 0.3s
+  }
+
+  .sidenav a:hover, .offcanvas a:focus{
+      color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+  #menu ul {
+    float: none !important;
+    margin-top: 0px;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  #menu ul ul {
+    position: relative !important;
+    margin-top: 0 !important;
+    padding-left: 10px !important;
+  }
+  #menu ul li {
+    width: 100%;
+    float: none !important;
+    margin-left: 0 !important;
+    display: block !important;
+    height: auto !important;
+  }
+  #menu ul li a {
+    line-height: normal !important;
+    padding-left: 10px !important;
+  }
+  #menu ul li a:hover {
+    background: #737373;
+  }
+  #menu ul li a:after {
+    border-bottom: none !important;
+  }
+  #menu ul ul li a{
+    line-height: 40px !important;
+  }
+  ul.sub-menu li {
+    background: #111 !important;
+  }
+  #btn-menu {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  .leg-ft {
+    height: 100px !important;
+  }
+  .copy-right {
+    float: left !important;
+  }
+
+}
+@media screen and (max-width: 1156px){ 
+  .join-class:after {
+    margin-left: -155px !important;
+    border-right-width: 155px;
+    border-left-width: 155px;
+  }
+}
+@media screen and (max-width: 956px){ 
+  .join-class:after {
+   margin-left: -115px !important;
+    border-right-width: 115px;
+    border-left-width: 115px;
+  }
+}
+@media screen and (max-width: 768px){ 
+  .box-login {
+    width: 96% !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .col-left {
+    width: 100% !important;
+    padding-right: 0 !important;
+    margin-bottom: 30px;
+  }
+  .col-right {
+    width: 100% !important;
+    margin-bottom: 50px;
+  }
+  .step {
+    float: none !important;
+    display: block !important;
+  }
+  .step2 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  #sidebar-2 {
+    display: none !important;
+  }
+  #footer {
+    position: inherit !important;
+    height: auto !important;
+  }
+  #body {
+    padding-bottom: 50px;
+  }
+  .ft-content {
+    width: 100% !important;
+    display: inline-block;
+  }
+  .ft-col-1 {
+    width: 100% !important;
+    padding: 5px 10px !important;
+  }
+  .ft-col-2 {
+    width: 100% !important;
+    padding: 5px 10px !important;
+  }
+  .ft-col-3 {
+    width: 100% !important;
+    padding: 5px 10px !important;
+  }
+  .ft-menu {
+    padding-left: 10px !important;
+  }
+  .sidebar {
+    display: none;
+  }
+  .main {
+    width: 100% !important;
+  }
+  .btn-lesson {
+    display: inherit;
+  }
+  ul.lession {
+    max-height: 40% !important;
+  }
+  .bg-close {
+    display: none;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 50;
+  }
+}
